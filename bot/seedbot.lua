@@ -226,17 +226,17 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {140529465,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {140529465,103649648,143723991,111020322,0,tonumber(79363459)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 https://github.com/SEEDTEAM/TeleSeed
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
+@amir007turk [Founder]
+@amir007turk [Developer]
+@amir007turk [Developer]
+@amir007turk [Manager]
 Special thanks to
 awkward_potato
 Siyanew
@@ -362,6 +362,7 @@ will return group ban list
 *Only owner and mods can add bots in group
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 *Only owner can use res,setowner,promote,demote and log commands
+teleujk
 ]]
   }
   serialize_to_file(config, './data/config.lua')
